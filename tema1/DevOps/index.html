@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi web de DAW</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi web de DAW</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#devops">DevOps</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Hola, soy David Quirós</h2>
+        <p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #28a745;">
+            Esta web se actualiza automáticamente cada vez que hago un cambio. 
+        </p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <div class="contenido-tarjeta">
+            <div class="tarjeta">
+                <h3>Datos Personales y Curso</h3>
+                <ul>
+                    <li><strong>Nombre:</strong> David  Quirós</li>
+                    <li><strong>Curso:</strong> 1º de DAW</li>
+                    <li><strong>Especialidad (Actual):</strong> Fundamentos de <strong>HTML, CSS, y JavaScript</strong>.</li>
+                </ul>
+            </div>
+            <div class="tarjeta">
+                <h3>Intereses y Hobbies</h3>
+                <ul>
+                    <li><strong>Videojuegos de Estrategia:</strong> Me ayudan a pensar en la lógica.</li>
+                    <li><strong>Cine:</strong> Me ayuda a distraerme y me aleja de la realidad.</li>
+                    <li><strong>Música:</strong> Me gusta la música desde pequeño y toco varios instrumentos.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos de Clase Destacados</h2>
+        <div class="galeria-proyectos">
+            <div class="proyecto">
+                <div class="proyecto-info">
+                    <h4>Web de Turismo (HTML/CSS)</h4>
+                    <p>Mi primer proyecto serio para entender la estructura de una web.</p>
+                    <span class="proyecto-tag">HTML & CSS</span>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-info">
+                    <h4>Juego Simple (Piedra, Papel, Tijera)</h4>
+                    <p>Aplicando JavaScript para crear interactividad y lógica del juego.</p>
+                    <span class="proyecto-tag">JavaScript Básico</span>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-info">
+                    <h4>Formulario y Validación</h4>
+                    <p>Aprender a hacer formularios y validar los datos antes de enviarlos.</p>
+                    <span class="proyecto-tag">HTML5 y JS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="devops">
+        <h2>DevOps: Automatización y Despliegue</h2>
+        <div class="contenido-tarjeta">
+            <div class="tarjeta" style="flex: 1 1 100%;">
+                <h3>CI/CD y Despliegue Automático</h3>
+                <p>
+                    <strong>CI/CD (Integración Continua y Despliegue Continuo)</strong> es el proceso de subir código constantemente y que este se publique solo. ¡Es una herramienta de trabajo esencial en el mundo real!
+                </p>
+                <p>
+                    Usamos <strong>GitHub Actions</strong> para configurar una receta (<code>deploy.yml</code>) que le dice a GitHub que publique esta página en <strong>GitHub Pages</strong> automáticamente cada vez que hago un <code>push</code>. Es el primer paso en DevOps.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 David Quirós | 1º de Desarrollo de Aplicaciones Web (DAW).</p>
+        <p>Despliegue automático configurado con GitHub Actions.</p>
+    </footer>
+</body>
+</html>
